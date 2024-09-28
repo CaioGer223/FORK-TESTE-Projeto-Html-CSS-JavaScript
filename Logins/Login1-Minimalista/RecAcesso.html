@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Acesso</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <body>
+
+        <main class="fundo"> <!-- div principal-->
+    
+            <div class="box"> <!-- guarda imagem e formulário-->
+    
+                <div class="img"> <!-- imagem-->
+                    <picture>
+                        <source media="(max-width: 667px)" srcset="./imagens/Senha-70px.png" type="image/png">
+                        <source media="(max-width: 1050px)" srcset="./imagens/Senha-100px.png" type="image/png">
+                        <img src="./imagens/Senha-120px.png" alt="imagem flexive">
+                    </picture> 
+                </div>
+    
+                <div class="titulo"> <!-- nome titulo-->
+                    <h2>Recuperar Acesso</h2>
+                </div>
+    
+                <form> <!-- formulario-->
+                    <div class="formLogin">
+                        <input type="text" name="email" class="emailLogin" placeholder="Digite seu Email">
+                    </div>
+                        
+                    <div class="direcionamentos">
+                        <h4> <a href="index.html" target="_self"> Acessar Conta</a></h4>
+                    </div>
+                
+                    <div class="direcionamentos">
+                        <h4> <a href="NovaConta.html" target="_self"> Nova Conta</a></h4>
+                    </div>
+                
+                    <input type="radio" name="popup" id="abrirPop" hidden>
+                    <input type="radio" name="popup" id="fecharPop" hidden checked>
+                
+                    <label for="abrirPop" id="abrirPopBtn">Enviar</label>
+                    <label for="fecharPop"></label>
+                
+                    <div id="verify">
+                        <p>Uma senha de acesso temporária foi enviada para seu email.</p>
+                    </div>
+    
+            </div>
+    
+        </main>
+    
+        <footer> 
+            
+            <div class="padraoTell">
+    
+                <div class="telefone">
+                    <h3>Contatos</h3>
+                    <h4>(xx) xxxxx-xxxx</h4>
+                    <h4>(xx) xxxx-xxxx</h4>
+                </div>
+    
+                <div class="email">
+                    <h3>floriculta@flor.com</h3>
+                </div>
+    
+            </div>
+    
+        
+        </footer>
+        
+    
+    </body>
+    
+</body>
+</html>

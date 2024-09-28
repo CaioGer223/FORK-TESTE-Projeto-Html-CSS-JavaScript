@@ -26,3 +26,13 @@
 - Imagens utlizadas do site: https://www.pexels.com/pt-br/
 - ícones: https://iconarchive.com/ e https://favicon.io/
 
+
+*** Fork CaioGer223 ***
+
+Fork feito para fins de estudo, testando meus conhecimentos e habilidades utilizando apenas HTML e CSS, mantendo a mesma proposta inicial de minimalismo:
+
+Pequenas alterações feitas no arquivo Login1:
+- Aprimoramento do botão "Enviar"
+- Remoção de linhas de código desnecessárias/duplicadas
+- Melhor leitura do arquivo css
+- Implementação de um tela de recuperar senha
